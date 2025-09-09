@@ -108,16 +108,46 @@
   font-style: italic;
 }
 
-
+/* CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
-    font-size: calc(1 * 100vw/375);
-
+    font-size: calc(1 * 100vw / 375);
+    
     @media screen and (min-width: 700px) {
-        font-size: calc(1 * 100vw/1440);
+        font-size: calc(1 * 100vw / 1440);
     }
 
     @media screen and (min-width: 1440px) {
         font-size: 1px;
     }
 }
+
+body {
+    font-size: 16rem; /* This will be responsive based on html font-size */
+    line-height: 1.5;
+}
+
+/* Container font usage */
+.container1 { font-family: 'SuisseIntl-Black', sans-serif; font-size: 14rem; }
+.container2 { font-family: 'SuisseIntl-BlackItalic', sans-serif; font-size: 14rem; }
+.container3 { font-family: 'SuisseIntl-Bold', sans-serif; font-size: 14rem; }
+.container4 { font-family: 'SuisseIntl-BoldItalic', sans-serif; font-size: 14rem; }
+.container5 { font-family: 'SuisseIntl-Book', sans-serif; font-size: 14rem; }
+.container6 { font-family: 'SuisseIntl-BookItalic', sans-serif; font-size: 14rem; }
+.container7 { font-family: 'SuisseIntl-Light', sans-serif; font-size: 14rem; }
+.container8 { font-family: 'SuisseIntl-LightItalic', sans-serif; font-size: 14rem; }
+.container9 { font-family: 'SuisseIntl-Medium', sans-serif; font-size: 14rem; }
+.container10 { font-family: 'SuisseIntl-MediumItalic', sans-serif; font-size: 14rem; }
+.container11 { font-family: 'SuisseIntl-Regular', sans-serif; font-size: 14rem; }
+.container12 { font-family: 'SuisseIntl-RegularItalic', sans-serif; font-size: 14rem; }
+.container13 { font-family: 'SuisseIntl-SemiBold', sans-serif; font-size: 14rem; }
+.container14 { font-family: 'SuisseIntl-SemiBoldItalic', sans-serif; font-size: 14rem; }
+.container15 { font-family: 'SuisseIntl-Thin', sans-serif; font-size: 14rem; }
+.container16 { font-family: 'SuisseIntl-ThinItalic', sans-serif; font-size: 14rem; }
+.container17 { font-family: 'SuisseIntl-Ultralight', sans-serif; font-size: 14rem; }
+.container18 { font-family: 'SuisseIntl-UltralightItalic', sans-serif; font-size: 14rem; }
